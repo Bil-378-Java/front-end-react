@@ -1,0 +1,72 @@
+.content {
+    background: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container .items {
+    width: 290px;
+    height: 200px;
+    /* border: 1px solid red; */
+    margin-bottom: 25px;
+    transition: transform 0.1s;
+    position: relative;
+    z-index: 9;
+    cursor: pointer;
+
+}
+
+.container .items img {
+    width: 290px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.container .items:hover{
+    transform: scale(1.1,1.1);
+}
+
+.container .items .item-text {
+    display: block;
+    position: absolute;
+    padding-top: 10px;
+    width: 290px;
+    height: 40px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Roboto Slab;
+    font-style: Regular;
+    font-size: 18px;
+    color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.more-posts {
+    font-family: 'Roboto Slab';
+    background: #07699D;
+    margin: 20px auto 0;
+    width: 100px;
+    height: 25px;
+    border: 2px solid #07699D;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.more-posts:hover {
+    background-color: gray;
+    border: 2px solid #7FDBFF;
+    color: #7FDBFF;
+}

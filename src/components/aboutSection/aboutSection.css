@@ -1,0 +1,72 @@
+.main-picture {
+    margin-top: 96px;
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.main-picture .item1 {
+    width: 20%;
+    flex-grow: 1;
+}
+
+.main-picture .item2 {
+    flex-grow: 2;
+    width: 70%;
+}
+
+.main-picture .item3 {
+    flex-grow: 1;
+    width: 10%;
+}
+
+.profile-logo {
+    width: 155px;
+    height: 155px;
+    background-size: cover;
+    border: 5px solid #FFFBFB;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.desc {
+    margin-bottom: 40px;
+}
+
+.name-of-company {
+    width: 484px;
+    top: 90px;
+    left: 270px;
+    font-size: 48px;
+    font-family: 'Roboto Slab';
+    font-weight: normal;
+    color: #fff;
+}
+
+.description {
+    width: 460px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.settings-icon {
+    display: block;
+    width: 33px;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.settings-icon:hover {
+    color: #7FDBFF;
+}
